@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agent Control</title><link rel="stylesheet" href="popup.css"></head>
+<body><main>
+<div class="eyebrow">LOCAL AGENT BRIDGE</div><h1>Computer Control</h1><p class="muted">HTTP API · JavaScript SDK</p>
+<label for="key">API key</label><input id="key" type="password" placeholder="Paste your API key" autocomplete="off">
+<div class="row"><button id="save" class="secondary">Save key</button><button id="status">Check status</button></div>
+<div id="statusText" class="status">Not connected</div>
+<div class="row"><button id="enable" class="danger">Enable input</button><button id="disable" class="secondary">Disable input</button></div>
+<p class="foot">Keep the API local and your key private. Enable input only when ready.</p>
+</main><script src="popup.js"></script></body></html>

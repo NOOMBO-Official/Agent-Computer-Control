@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Agent Computer Control",
+  "version": "1.1.0",
+  "description": "Control panel for the local Agent Computer Control API.",
+  "action": { "default_popup": "popup.html", "default_title": "Agent Computer Control" },
+  "permissions": [],
+  "host_permissions": ["http://127.0.0.1:3210/*"]
+}
